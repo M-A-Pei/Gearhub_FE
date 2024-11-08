@@ -8,7 +8,7 @@ interface Props {
 export default function ProductCard({ image, title, price, description }: Props) {
     return (
         <div className="card col-lg-3 mx-3 my-2 text-light" style={{ backgroundColor: ' #312617', border: '2px solid gray' }}>
-            <img className="card-img-top" height={300} src={`http://localhost:3000/uploads/${image}`} alt="..." />
+            <img className="card-img-top" height={300} src={`https://res.cloudinary.com/duaae3pir/${image}`} alt="..." />
             <div className="card-body">
                 <div className="d-flex justify-content-between">
                     <h5 className="card-title">{title}</h5>

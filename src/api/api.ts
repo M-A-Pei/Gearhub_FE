@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://gear-hub-be.vercel.app/",
+    baseURL: import.meta.env.VITE_API_URL,
 });
 
 export default api
